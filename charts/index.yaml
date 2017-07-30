@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   glance:
   - apiVersion: v1
-    created: 2017-07-30T14:51:21.427815066Z
+    created: 2017-07-30T14:57:36.262286935Z
     description: A Helm chart for Kubernetes
     digest: f2873fca4b0b3651358157e634f2ee0699e13464dafcbf471f28fbead6ab330b
     name: glance
@@ -11,7 +11,7 @@ entries:
     version: 0.1.0
   horizon:
   - apiVersion: v1
-    created: 2017-07-30T14:51:21.428332196Z
+    created: 2017-07-30T14:57:36.262941281Z
     description: A Helm chart for Kubernetes
     digest: f72e5c6e1b36b4e2aea1a0ea5a300ece4f0c9b70a6d6dde97246520abcc02562
     name: horizon
@@ -20,7 +20,7 @@ entries:
     version: 0.1.0
   ingress:
   - apiVersion: v1
-    created: 2017-07-30T14:51:21.429076706Z
+    created: 2017-07-30T14:57:36.263115577Z
     description: A Helm chart for Kubernetes
     digest: c25a4461cfc4206cccabe08d1ddea9a81046a804217d554956a6b7c397ac29cb
     name: ingress
@@ -29,7 +29,7 @@ entries:
     version: 0.1.0
   keystone:
   - apiVersion: v1
-    created: 2017-07-30T14:51:21.429713553Z
+    created: 2017-07-30T14:57:36.263277002Z
     description: A Helm chart for Kubernetes
     digest: feeac663448906f6f2361370751b73c426f7c7785d9446cb9c3ff744c18a03e0
     name: keystone
@@ -37,7 +37,7 @@ entries:
     - keystone-0.1.0.tgz
     version: 0.1.0
   mariadb:
-  - created: 2017-07-30T14:51:21.430327112Z
+  - created: 2017-07-30T14:57:36.263538239Z
     description: Fast, reliable, scalable, and easy to use open-source relational
       database system. MariaDB Server is intended for mission-critical, heavy-load
       production systems as well as for embedding into mass-deployed software.
@@ -60,7 +60,7 @@ entries:
     - mariadb-0.6.3.tgz
     version: 0.6.3
   memcached:
-  - created: 2017-07-30T14:51:21.430857412Z
+  - created: 2017-07-30T14:57:36.263737627Z
     description: Free & open source, high-performance, distributed memory object caching
       system.
     digest: addb6389efb65a1f64b7bef57a5518968d1892a6d24ddf57d75c32ecff6539d8
@@ -81,7 +81,7 @@ entries:
     version: 1.1.0
   neutron:
   - apiVersion: v1
-    created: 2017-07-30T14:51:21.43149364Z
+    created: 2017-07-30T14:57:36.2642811Z
     description: A Helm chart for Kubernetes
     digest: af86222ef79521ef14130863b755bb4ed3aa6dc8ee97cdf1eae089ba081bae8b
     name: neutron
@@ -90,7 +90,7 @@ entries:
     version: 0.1.0
   nova:
   - apiVersion: v1
-    created: 2017-07-30T14:51:21.432712657Z
+    created: 2017-07-30T14:57:36.265115295Z
     description: A Helm chart for Kubernetes
     digest: 1d64b822977bbcf42503a8342f8c9630fadd8e784110c2c5baea96fe4a16ea07
     name: nova
@@ -99,15 +99,15 @@ entries:
     version: 0.1.0
   openstack:
   - apiVersion: v1
-    created: 2017-07-30T14:51:21.43392221Z
+    created: 2017-07-30T14:57:36.265946989Z
     description: A Helm chart for Kubernetes
-    digest: 88053f215ecfb7d9f55472a80bc9e64967ec24fcbc00e85a01736b492c32ed30
+    digest: 44ce99faab9a6fd6a0d2b4b79a5a1193848c2a12adec226f8217461003bb94f5
     name: openstack
     urls:
     - openstack-0.1.0.tgz
     version: 0.1.0
   rabbitmq:
-  - created: 2017-07-30T14:51:21.434396271Z
+  - created: 2017-07-30T14:57:36.26638462Z
     description: Open source message broker software that implements the Advanced
       Message Queuing Protocol (AMQP)
     digest: d8f61705a07d482c15d495c2d1969ca3b07fbe6db7101267e905643efbc6965e
@@ -127,4 +127,4 @@ entries:
     urls:
     - rabbitmq-0.5.3.tgz
     version: 0.5.3
-generated: 2017-07-30T14:51:21.427456517Z
+generated: 2017-07-30T14:57:36.261559594Z

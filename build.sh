@@ -1,12 +1,16 @@
 #!/bin/bash
 
-git submodule update
+CHARTS_DIR=`pwd`/charts
+cd /tmp
+git clone git@github.com:syunkitada/openstack-helm.git
 
-cd chartrepo
+cd $CHARTS_DIR
 
-for chart in `find ../openstack-helm/ -name Chart.yaml | sed -e 's/Chart.yaml//g'`
+for chart in `find /tmp/openstack-helm/ -name Chart.yaml | sed -e 's/Chart.yaml//g'`
 do
     helm package $chart
 done
 
 helm repo index ./
+
+rm -rf /tmp/openstack-helm
