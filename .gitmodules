@@ -1,0 +1,3 @@
+[submodule "openstack-helm"]
+	path = openstack-helm
+	url = git@github.com:syunkitada/openstack-helm.git
