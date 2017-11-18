@@ -2,25 +2,25 @@ apiVersion: v1
 entries:
   glance:
   - apiVersion: v1
-    created: 2017-10-22T23:02:48.017910413+09:00
+    created: 2017-11-18T19:52:15.198992567+09:00
     description: A Helm chart for Kubernetes
-    digest: a588799042ec1368d8a6eceeb1eb9ccdae17d0bee5fd5c303e45efc453a05306
+    digest: dbe8101f3d8c51478c8cf3cfaf27e23a2aefa07a54f9ba2e2edc8915f340ac61
     name: glance
     urls:
     - glance-0.1.0.tgz
     version: 0.1.0
   horizon:
   - apiVersion: v1
-    created: 2017-10-22T23:02:48.030832915+09:00
+    created: 2017-11-18T19:52:15.199533332+09:00
     description: A Helm chart for Kubernetes
-    digest: abbdcb50da17e729cf485dd3dbd70514414f2f6366e522dd1836f5c5aba159d5
+    digest: dab1d356227d495c30fb18c182a9b457d2b6e0c57b6a4c5043903b0fe73ea229
     name: horizon
     urls:
     - horizon-0.1.0.tgz
     version: 0.1.0
   ingress:
   - apiVersion: v1
-    created: 2017-10-22T23:02:48.031527632+09:00
+    created: 2017-11-18T19:52:15.200565711+09:00
     description: A Helm chart for Kubernetes
     digest: a57b59d907fce9484d709f4ec88e73c2bed660f72279f214ac1189edce960668
     name: ingress
@@ -29,16 +29,16 @@ entries:
     version: 0.1.0
   keystone:
   - apiVersion: v1
-    created: 2017-10-22T23:02:48.032053812+09:00
+    created: 2017-11-18T19:52:15.201152134+09:00
     description: A Helm chart for Kubernetes
-    digest: 4fb252d866137ef2f0467b067610c709348b8f58ef7abcb8596f9acd1b59abb7
+    digest: d410b9892dbd37fcb089edc29ab35ad4dce22500e997bbdad86dd732796bb064
     name: keystone
     urls:
     - keystone-0.1.0.tgz
     version: 0.1.0
   kubernetes-dashboard:
   - apiVersion: v1
-    created: 2017-10-22T23:02:48.032493077+09:00
+    created: 2017-11-18T19:52:15.201742393+09:00
     description: A Helm chart for Kubernetes
     digest: bcf681feb7a8c6daea78027bb2ddd0d34c7d8ba3de9e08c212b898781bdb73e0
     name: kubernetes-dashboard
@@ -47,7 +47,7 @@ entries:
     version: 0.1.0
   kubernetes-logging:
   - apiVersion: v1
-    created: 2017-10-22T23:02:48.03303024+09:00
+    created: 2017-11-18T19:52:15.202393661+09:00
     description: A Helm chart for Kubernetes
     digest: b9e2c67c62090672bd2f30b9b614db735fecfde7107e7ec5cfe7c03d3b3192a7
     name: kubernetes-logging
@@ -56,7 +56,7 @@ entries:
     version: 0.1.0
   kubernetes-monitoring:
   - apiVersion: v1
-    created: 2017-10-22T23:02:48.041196257+09:00
+    created: 2017-11-18T19:52:15.208878206+09:00
     description: A Helm chart for Kubernetes
     digest: 4154897d3e64934bcdf37be40d9496a3fe9b727d9f7cca3ee1c05f598787e2be
     name: kubernetes-monitoring
@@ -64,7 +64,7 @@ entries:
     - kubernetes-monitoring-0.1.0.tgz
     version: 0.1.0
   mariadb:
-  - created: 2017-10-22T23:02:48.04157246+09:00
+  - created: 2017-11-18T19:52:15.209194527+09:00
     description: Fast, reliable, scalable, and easy to use open-source relational
       database system. MariaDB Server is intended for mission-critical, heavy-load
       production systems as well as for embedding into mass-deployed software.
@@ -87,7 +87,7 @@ entries:
     - mariadb-0.6.3.tgz
     version: 0.6.3
   memcached:
-  - created: 2017-10-22T23:02:48.041788484+09:00
+  - created: 2017-11-18T19:52:15.209425834+09:00
     description: Free & open source, high-performance, distributed memory object caching
       system.
     digest: 8a4db3f37ed10b8da536634644e189fb51f2e2978231d85f108939ecfcb0471b
@@ -108,7 +108,7 @@ entries:
     version: 1.1.0
   monitoring:
   - apiVersion: v1
-    created: 2017-10-22T23:02:48.042367229+09:00
+    created: 2017-11-18T19:52:15.209744788+09:00
     description: A Helm chart for Kubernetes
     digest: de03c3465cc836f90632cc7a067ab5228a1b2bc3b19d82a1e052c3104ec6cdcd
     name: monitoring
@@ -117,33 +117,33 @@ entries:
     version: 0.1.0
   neutron:
   - apiVersion: v1
-    created: 2017-10-22T23:02:48.042615678+09:00
+    created: 2017-11-18T19:52:15.209976315+09:00
     description: A Helm chart for Kubernetes
-    digest: 4b84e341f79fffacc61fba9d0267d3d007c206b2ae2e8c16ffff3b86e3f901a8
+    digest: 5646236be01b575bf3e7ce007977aee16d67203f82355d9ae398dff9097befd4
     name: neutron
     urls:
     - neutron-0.1.0.tgz
     version: 0.1.0
   nova:
   - apiVersion: v1
-    created: 2017-10-22T23:02:48.043073681+09:00
+    created: 2017-11-18T19:52:15.210737813+09:00
     description: A Helm chart for Kubernetes
-    digest: 874fd1b2cb3ab632906b86c34d0d4b4dcbd9ab43f92e73e293a4785ade46436b
+    digest: 515aa0445ab2cc8aad9a2e218e13cc46669e72a89d56e4cdcc976f87cb8c37f4
     name: nova
     urls:
     - nova-0.1.0.tgz
     version: 0.1.0
   openstack:
   - apiVersion: v1
-    created: 2017-10-22T23:02:48.043633811+09:00
+    created: 2017-11-18T19:52:15.211593119+09:00
     description: A Helm chart for Kubernetes
-    digest: 4e3972f31fe88efc0eecf402906d0faa92c2167f3e04fe90b5b0c1d17955e1e0
+    digest: ed2383593b6f466652d253443e61235b3942b74efb0e1f20b00fa3e6f0553093
     name: openstack
     urls:
     - openstack-0.1.0.tgz
     version: 0.1.0
   rabbitmq:
-  - created: 2017-10-22T23:02:48.043872373+09:00
+  - created: 2017-11-18T19:52:15.211833196+09:00
     description: Open source message broker software that implements the Advanced
       Message Queuing Protocol (AMQP)
     digest: d8f61705a07d482c15d495c2d1969ca3b07fbe6db7101267e905643efbc6965e
@@ -165,16 +165,16 @@ entries:
     version: 0.5.3
   rabbitmq-cluster:
   - apiVersion: v1
-    created: 2017-10-22T23:02:48.04457471+09:00
+    created: 2017-11-18T19:52:15.212111347+09:00
     description: A Helm chart for Kubernetes
-    digest: 03e9b6b368d363de40147cbcb8768c7256c6ea6b4310c7f38cc808f3bf22139f
+    digest: 3389146926c1adea6a4a750ece848a872ba19712df5b9d7f59431f305b5a1549
     name: rabbitmq-cluster
     urls:
     - rabbitmq-cluster-0.1.0.tgz
     version: 0.1.0
   rabbitmq-manager:
   - apiVersion: v1
-    created: 2017-10-22T23:02:48.044710488+09:00
+    created: 2017-11-18T19:52:15.212257122+09:00
     description: A Helm chart for Kubernetes
     digest: 10e9a5c67a2f9578fbd137f6daa1bcdb8aed4c56bbba6a693be76095bd93b635
     name: rabbitmq-manager
@@ -183,11 +183,11 @@ entries:
     version: 0.1.0
   rabbitmq-svc:
   - apiVersion: v1
-    created: 2017-10-22T23:02:48.044822314+09:00
+    created: 2017-11-18T19:52:15.212372104+09:00
     description: A Helm chart for Kubernetes
     digest: df3d340cd8aabb809d5c0ef261ad21fe97077e6075548672575716bc5744209e
     name: rabbitmq-svc
     urls:
     - rabbitmq-svc-0.1.0.tgz
     version: 0.1.0
-generated: 2017-10-22T23:02:48.017549386+09:00
+generated: 2017-11-18T19:52:15.198658017+09:00
